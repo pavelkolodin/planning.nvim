@@ -352,7 +352,7 @@ local function open_index_planning()
   vim.wo.cursorlineopt  = "line"
 
   vim.api.nvim_set_hl(0, "PlanningCursorLine",
-    { bg = "#3a3a3a", bold = true })
+    { bg = "#aaffff", bold = true })
   vim.wo.winhighlight = "CursorLine:PlanningCursorLine"
 
   local cols = vim.o.columns
