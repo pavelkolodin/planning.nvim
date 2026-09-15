@@ -2,7 +2,7 @@
 
 Простой TODO-плагин для nvim с хранением информации в локальных файлах.
 
-![Advertisement Image](./doc/images/2026-09-15-22-19-30.jpg)
+![Advertisement Image](./doc/images/2026-09-15-23-16-14.jpg)
 
 # Установка
 
