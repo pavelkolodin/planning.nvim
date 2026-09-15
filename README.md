@@ -24,6 +24,7 @@
 
 ```
 mkdir todofolder
+cd todofolder
 nvim
 :Planning
 ```
