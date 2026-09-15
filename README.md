@@ -4,8 +4,10 @@
 
 # Как установить.
 
+## Lazy
+Бахнуть это в ~/.config/nvim/init.lua в секцию перечисления Lazy-плагинов:
 ```
-return {
+{
   "pavelkolodin/planning.nvim",
   cmd = { "Planning", "PlanAdd", "PlanUp", "PlanDown", "PlanDel" },
   config = function()
@@ -13,6 +15,8 @@ return {
   end,
 }
 ```
+
+Запустите nvim. Оно должно провернуть шестерни само. Или руками `:Lazy` и там поройтесь. Потом можно перезапустить для чистоты опыта. Позже надо будет сделать под не-Lazy что-нибудь.
 
 # Как начать
 
